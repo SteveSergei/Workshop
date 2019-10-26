@@ -1,0 +1,199 @@
+body{
+  font-family: "Roboto", sans-serif;
+
+}
+.jumbotron{
+  height: 100px;
+  background-color: #ffff
+  color: #9C51E8
+}
+.navbar{
+  color: #ffff;
+  text-decoration: none;
+  height: 10px;
+  padding-bottom: 100px;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: #9C51E8;
+  font-size: 15px;
+  margin: 20px;
+}
+
+#profile{
+  width: 150px;
+}
+
+#myname{
+  font-size: 50px;
+  color: #9C51E8;
+}
+
+#motto{
+  font-size: 20px;
+  color: #9C51E8;
+}
+
+#isi1{
+  background-color: #34FFBC;
+  text-allgn: justify;
+}
+
+#container2{
+  padding-top: 150px;
+  padding-bottom: 120px;
+}
+
+#profile2{
+  width: 300px;
+}
+
+#speech2{
+  color: #3F26FF;
+}
+
+#i{
+  font-size: 25px;
+}
+
+#isi2{
+  margin-top: 60px;
+  font-size: 25px;
+}
+
+#container3{
+  padding-top: 40px;
+  padding-bottom: 120px;
+}
+
+#skill{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.progress-title{
+  font-size: 17px
+  font-weight: 700;
+  color: #EB1F00;
+}
+
+.progress{
+  height: 3px;
+  background: #E8C45D
+  border-radius: 8px
+  box-shadow: none;
+  margin-bottom: 30px;
+  overflow: visible;
+}
+
+.progress .progress-bar{
+  box-shadow: none;
+  position: relative;
+}
+
+.progress .progress-bar:after{
+  content: ""
+  width: 20px;
+  height: 28px;
+  border : 4px solid #fff;
+  position: absolute;
+  top: -8px;
+  right: 4px;
+  transform: rotate(40deg);
+}
+
+.progress.pink .progress-bar:after{
+  background: #E89723;
+  outline: 2px solid #E89723;
+}
+
+.progress.blue .progress-bar:after{
+  background: #E89723;
+  outline: 2px solid #E89723;
+}
+
+.progress.white .progress-bar:after{
+  background: #E89723;
+  outline: 2px solid #E89723;
+}
+
+.progress.black .progress-bar:after{
+  background: #E89723;
+  outline: 2px solid #E89723;
+}
+
+.progress.purple .progress-bar:after{
+  background: #E89723;
+  outline: 2px solid #E89723;
+}
+.card-body{
+  background-color: #E8C45D;
+}
+
+#project{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#cards{
+  padding-bottom: 30px;
+}
+
+.card{
+  width: 300px
+}
+
+#isi4{
+  margin-top: 60px;
+}
+
+#custom{
+  background-color: #1457A1;
+  border-radius:15px;
+  font-size: 15px;
+  border: none;
+}
+
+#comment{
+  width: 98%;
+  padding-top: 180px;
+}
+
+#komen{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #113A36;
+}
+input[type="text"], input[type=email],select.form.control{
+  background: #fafafa;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 3);
+  -webkit-box-shadow: none;
+  border-radius: 0px;
+}
+
+input[type="text"], input[type=email]:focus,
+select.form.control:focus{
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.form.control.placeholder{
+  position: absolute;
+  top: 0;
+  transition: all 200ms;
+  opacity: 0.5;
+}
+
+.form.group{
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.form.control.focus + .form.control-placeholder,
+.form.control.valid + .form.control-placeholder{
+  font-size: 100%
+  transform: translate3d(0, -100%, 0);
+  opacity: 1;
+}
